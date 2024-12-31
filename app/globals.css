@@ -19,3 +19,21 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.pokview {
+  padding-right: 16px;
+}
+
+.pokview::-webkit-scrollbar {
+  width: 8px;
+  background-color: var(--foreground);
+  border-radius: 25px;
+  padding: 2px;
+}
+
+.pokview::-webkit-scrollbar-thumb {
+  background-color: var(--background);
+  border: 2px solid var(--foreground);
+  border-radius: 16px;
+}
+
